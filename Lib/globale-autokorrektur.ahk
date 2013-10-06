@@ -1,5 +1,4 @@
 #Hotstring
-
 ; Ich kann keine Gewähr für diese Liste übernehmen
 ; Andreas Borutta
 
@@ -45,8 +44,6 @@
 ::Buchsabe::Buchstabe
 ::Buchstbae::Buchstabe
 ::dachet::dachte
-::darfnicht::darf nicht
-::darfstnicht::darfst nicht
 ::daselbe::dasselbe
 ::Datein::Dateien
 ::dei::die
@@ -62,16 +59,11 @@
 ::dise::diese
 ::disees::dieses
 ::diser::dieser
-::dna::dann
 ::Dnak::Dank
 ::dnake::danke
 ::Dockument::Dokument
 ::Dokkument::Dokument
 ::Dokumnet::Dokument
-::dre::der
-::dsa::das
-::dubist::du bist
-::dürfennicht::dürfen nicht
 ::edr::der
 ::ehielt::erhielt
 ::emfehlen::empfehlen
@@ -81,7 +73,6 @@
 ::eniges::einiges
 ::enldich::endlich
 ::Entwicklug::Entwicklung
-::enu::neu
 ::Enwicklung::Entwicklung
 ::ereichen::erreichen
 ::ereicht::erreicht
@@ -116,7 +107,6 @@
 ::Freudne::Freunde
 ::Freundinen::Freundinnen
 ::Frima::Firma
-::Fru::Frau
 ::fsat::fast
 ::fäöschlich::fälschlich
 ::Garanti::Garantie
@@ -124,14 +114,12 @@
 ::Gechichte::Geschichte
 ::Gecshichte::Geschichte
 ::Gefar::Gefahr
-::gehn::gehen
 ::Geidcht::Gedicht
 ::Gelegenhet::Gelegenheit
 ::Gelgenheit::Gelegenheit
 ::geradde::gerade
 ::Geschichtne::Geschichten
 ::Geshichte::Geschichte
-::ghe::gehe
 ::ghen::gehen
 ::ghest::gehst
 ::glaben::glauben
@@ -139,8 +127,6 @@
 ::gnaz::ganz
 ::Grupe::Gruppe
 ::gschehen::geschehen
-::gtf::Grüß Gott Frau
-::gth::Grüß Gott Herr
 ::habenicht::habe nicht
 ::habn::haben
 ::haett::hatte
@@ -149,20 +135,17 @@
 ::hbe::habe
 ::hoffendlich::hoffentlich
 ::hst::hast
-::ht::hat
 ::Htp::http
 ::Http::http
 ::http:\\::http://
 ::huete::heute
 ::Hypotek::Hypothek
-::ide::die
 ::ien::ein
 ::iene::eine
 ::ienes::eines
 ::ienige::einige
 ::ieniges::einiges
 ::ieronisch::ironisch
-::ih::ich
 ::ihc::ich
 ::imer::immer
 ::inRichtung::in Richtung
@@ -171,15 +154,12 @@
 ::intriegieren::intrigieren
 ::Intrife::Intrige
 ::ires::ihres
-::its::ist
 ::Jare::Jahre
 ::jettz::jetzt
 ::jezt::jetzt
 ::Jhar::Jahr
 ::kalrer::klarer
 ::kan::kann
-::kannicht::kann nicht
-::kannnicht::kann nicht
 ::kien::kein
 ::kiene::keine
 ::kienes::keines
@@ -226,7 +206,6 @@
 ::Mattematik::Mathematik
 ::mene::meine
 ::Mesnchen::Menschen
-::mfg::Mit freundlichen Grüßen
 ::mga::mag
 ::michselbst::mich selbst
 ::mirselbst::mir selbst
@@ -288,16 +267,12 @@
 ::sgf::Sehr geehrte Frau
 ::sgdh::Sehr geehrte Damenund Herren
 ::sgh::Sehr geehrter Herr
-::sichausdenken::sich ausdenken
 ::sien::sein
 ::siene::seine
 ::sienem::seinem
 ::sienes::seines
 ::sioe::sie
 ::slebst::selbst
-::solltenicht::sollte nicht
-::solltennicht::sollten nicht
-::solltestnicht::solltest nicht
 ::solte::sollte
 ::solten::sollten
 ::soltest::solltest
@@ -318,7 +293,6 @@
 ::trint::trinkt
 ::täusvhen::täuschen
 ::uas::aus
-::ud::du
 ::udn::und
 ::umbedingt::unbedingt
 ::Unabhägnigkeit::Unabhängigkeit
@@ -335,16 +309,12 @@
 ::Unterbingung::Unterbringung
 ::Unterbrignug::Unterbringung
 ::unzufriden::unzufrieden
-::uz::zu
 ::veilleicht::vielleicht
 ::Versamlung::Versammlung
-::vg::Viele Grüße
 ::vieleicht::vielleicht
-::vno::von
 ::Vorang::Vorrang
 ::Vorfal::Vorfall
 ::Vorvall::Vorfall
-::vro::vor
 ::vuchstabieren::buchstabieren
 ::wachesn::wachsen
 ::wasist::wasist
@@ -360,7 +330,6 @@
 ::werd::wird
 ::Wge::Weg
 ::Widnows::Windows
-::wiederschreiben::wiederschreiben
 ::wiel::weil
 ::wieß::weiß
 ::wieße::weiße

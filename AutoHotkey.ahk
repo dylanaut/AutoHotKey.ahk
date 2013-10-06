@@ -79,6 +79,9 @@ SHORTCUTS:
 #i::RunOrActivate(A_ProgramFiles "\Mozilla Firefox\firefox.exe", "ahk_class MozillaWindowClass", "newtab")
 #m::PostMessage, 0x112, 0xF020,,,A
 #y::RunOrActivate(toolCryptDir "\emacs\emacs.bat", "ahk_class Emacs")
+PrintScreen::Run %toolDir%\util\fscapture\FSCapture.exe
+
+
 
 ; Process Hacker
 ^+esc::Run %toolDir%\control\processhacker\x86\ProcessHacker.exe
@@ -86,31 +89,23 @@ SHORTCUTS:
 ;total commander
 #SPACE::
   if not WinExist( "ahk_class TTOTAL_CMD" )
-		Run %toolDir%\control\Total Commander\TOTALCMD.EXE
+		Run %toolDir%\control\totalcmd\TOTALCMD.EXE
 	WinActivate
 Return
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;	Hotstrings
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-#include %A_ScriptDir%\Lib\globale-autokorrektur.ahk
+; #include %A_ScriptDir%\Lib\globale-autokorrektur.ahk
 
 HOTSTRINGS:
-::MfG::Mit freundlichen Grüßen  
-::zB::z.B.
-::zT::zum Teil
-::jmd::jemand
-::evtl::eventuell
+::!mfg::Mit freundlichen Grüßen  
 ::ijmd::irgendjemand
 ::iwas::irgendwas
 ::iwo::irgendwo
 ::iwie::irgendwie
 ::iwann::irgendwann
-::bfeld::Birkenfeld
-::abach::Arnbach
-::nbg::Neuenbürg
-::bg::bis gleich                
-::aso::achso
+
 
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
@@ -121,26 +116,6 @@ TWEAKS:
 ; Turn off Caps Lock
 CapsLock::AppsKey
 
-; TOTALCMD: always COPY/MOVE in BACKGROUND
-#IfWinActive ahk_class TInpComboDlg
-	$Enter::SendInput, {F2}
-
-; TOTALCMD: minimize on esc  
-#ifWinActive ahk_class TTOTAL_CMD
-	$Escape::WinMinimize A
-
-; TOTALCMD: always unpack into seperate directory
-~!F6:: 
-~!F9:: 
-If WinActive("ahk_class TTOTAL_CMD") or WinActive("ahk_class TDLGUNZIPALL")
-{
-  WinWaitActive, ahk_class TDLGUNZIPALL
-  ControlSend, TCheckBox1, {SPACE}
-  ControlFocus, TAltEdit1
-  ; If you always want to extract to the active panel, uncomment:
-  ;Send {DEL}
-}
-Return
 
 ; PROCESS HACKER: close on esc
 #ifWinActive ahk_class ProcessHacker
